@@ -5,9 +5,6 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-    res.send('Hello From NODE API');
-});
 
 //get product
 app.get('/api/products', async (req,res) =>{
@@ -80,7 +77,7 @@ app.delete('./api/products/:id'), async (req, res) => {
   }
 }
 
-//connect DB
+//Connect DB
 mongoose.connect("mongodb+srv://enzonoriega:bNLn1Ids0Z2pvC6K@backenddb.e6tql.mongodb.net/NODE-API?retryWrites=true&w=majority&appName=BackendDB")
     .then(() => {
         console.log("Connected to the DB");

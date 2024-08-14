@@ -16,14 +16,7 @@ const ProductSchema = mongoose.Schema(
             required: true,
             default: 0,
         },
-        image: {
-            type: String,  
-            required: false,
-        },
-    },
-    {
-        timestamps: true,
-    }
+    }  
 );
 
 const Product = mongoose.model("Product", ProductSchema);
