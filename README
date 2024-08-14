@@ -2,7 +2,7 @@ Product API
  Node.js API built with Express and MongoDB. It supports basic CRUD operations, allowing you to create, read, update, and delete products.
 
 
-Repository:
+Repository: https://github.com/noriega146/SBA-319---MongoDB-Database-Application
 
 API Endpoints
 GET /api/products
