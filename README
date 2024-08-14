@@ -1,0 +1,35 @@
+Product API
+ Node.js API built with Express and MongoDB. It supports basic CRUD operations, allowing you to create, read, update, and delete products.
+
+
+Repository:
+
+API Endpoints
+GET /api/products
+
+Retrieves all products.
+Response: 200 OK with an array of products.
+GET /api/products/
+
+Retrieves a product by its ID.
+Response: 200 OK with the product ID.
+POST /api/products
+
+Creates a new product.
+Request Body: JSON with the product info.
+Response: 201 Created with the new product.
+PUT /api/products/
+
+Updates an existing product by its ID.
+Request Body: JSON with updated product details.
+Response: 200 OK with the updated product.
+DELETE /api/products/
+
+Deletes a product by its ID.
+Response: 204 No Content on success.
+
+API Client: Used Insomnia tool to test the API.Installation
+Create a Product: Sent a POST request with product details.
+Get All Products: Sent a GET request to fetch all products.
+Update a Product: Sent a PUT request with updated product data.
+Delete a Product: Sent a DELETE request with the product ID.
